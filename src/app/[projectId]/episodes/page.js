@@ -3,8 +3,8 @@
 import EpisodeCreationForm from "../../../Components/EpisodeCreationForm";
 import Card from "../../../Components/ui/Card";
 import CardsLayout from "../../../Components/ui/CardsLayout";
-import LoadingSpinner from "@/components/ui/LoadingSpinner";
-import Modal from "@/components/ui/Modal";
+import LoadingSpinner from "@/Components/ui/LoadingSpinner";
+import Modal from "@/Components/ui/Modal";
 import {
   addEpisode,
   deleteEpisode,
