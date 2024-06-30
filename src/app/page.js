@@ -105,7 +105,7 @@ export default function Home() {
                 onChange={(e) => setProjectName(e.target.value)}
               />
               <span className="text-sm text-red-500">
-                Project Name Can't be empty
+                Project Name Can&apos;t be empty
               </span>
             </div>
 
@@ -210,6 +210,7 @@ export default function Home() {
 
               return (
                 <Link
+                  key={project._id}
                   href={`/${project._id}/episodes`}
                   className="flex border border-black p-2 rounded-lg shadow-lg overflow-hidden overflow-ellipsis"
                 >
@@ -238,3 +239,4 @@ export default function Home() {
     </main>
   );
 }
+
