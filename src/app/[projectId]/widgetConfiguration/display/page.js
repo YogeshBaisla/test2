@@ -1,7 +1,7 @@
 "use client";
 
-import DropDown from "@/components/ui/DropDown";
-import Switch from "@/components/ui/Switch";
+import DropDown from "@/Components/ui/DropDown";
+import Switch from "@/Components/ui/Switch";
 import {
   getProjectDisplayConfig,
   updateDisplayConfiguration,

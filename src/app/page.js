@@ -2,7 +2,7 @@
 
 import { Bell, PlusCircle, Settings } from "lucide-react";
 import { useEffect, useState } from "react";
-import Modal from "../components/ui/Modal";
+import Modal from "../Components/ui/Modal";
 import { STORAGE_KEY, useAuth } from "@/contexts/userAuth";
 import AxiosClient from "@/utils/axios";
 import Link from "next/link";

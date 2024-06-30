@@ -1,7 +1,7 @@
 "use client";
 
-import Sidebar from "@/components/ui/Sidebar";
-import SidebarItem from "@/components/ui/SidebarItem";
+import Sidebar from "@/Components/ui/Sidebar";
+import SidebarItem from "@/Components/ui/SidebarItem";
 import {
   getProjectById,
   getProjectName,
