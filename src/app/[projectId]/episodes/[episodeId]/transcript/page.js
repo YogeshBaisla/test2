@@ -1,6 +1,6 @@
 "use client";
 
-import LoadingSpinner from "@/components/ui/LoadingSpinner";
+import LoadingSpinner from "../../../../../../src/Components/ui/LoadingSpinner";
 import {
   getEpisode,
   getLoadingState,
